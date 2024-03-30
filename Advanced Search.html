@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            a{
+                color: blue;
+            }
+            p{
+                font-size: 20px;
+                color: red;
+            }
+            body{
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            h1{
+                font-size: 80px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: crimson;
+                text-align: center;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                font-size: 35px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: crimson;
+                text-align: center;
+                background-color: white;
+            }
+        </style>
+            
+    </head>
+    <body>
+        <h1>Google Advanced Search</h1>
+        <div>
+            <form action="https://www.google.com/search" method="get">
+                <label for="all">All these words:</label>
+                <input type="text" id="all" name="q"><br>
+        
+                <label for="exact">This exact word or phrase:</label>
+                <input type="text" id="exact" name="as_epq"><br>
+        
+                <label for="any">Any of these words:</label>
+                <input type="text" id="any" name="as_oq"><br>
+        
+                <label for="none">None of these words:</label>
+                <input type="text" id="none" name="as_eq"><br>
+        
+                <input type="submit" value="Google Advanced Search">
+            </form>
+        </div>
+            <div id="img">
+                <a href="index.html">Google  Search</a>
+                <p id="img">Click this to go back to  Google search page</p>
+    
+            </div>
+            <div id="img">
+                <a href="Image Search.html">Google ImageSearch</a>
+                <p id="img">Click this to go back to Image search page</p>
+    
+            </div>
+        
+        
+    </body>
+</html>
+
